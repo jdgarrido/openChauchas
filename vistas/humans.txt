@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Pablo Canales Hernández -- Developer
+    Jose Daminán Garrido Muñoz -- Developer
+
+# THANKS
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Twitter Bootstrap, Font Awesome
+    jQuery, Modernizr, AngularJs
+    PHP, Laravel, MySql

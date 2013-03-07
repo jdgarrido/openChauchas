@@ -1,0 +1,18 @@
+/*Record Type Checkbox*/
+.record-type-checkbox {
+    display: none;
+}
+
+.record-type-checkbox ~ div{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.record-type-checkbox:not(:checked) ~ .alert-success {
+    display:none;
+}
+
+.record-type-checkbox:checked ~ .alert-error,
+.record-type-checkbox:checked ~ .alert-warning {
+    display:none;
+}

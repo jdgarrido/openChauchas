@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Chauchas</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+        </header>
+        <div>
+            <div class="span5">
+                <form class="form form-vertical">
+                    <h3>New Account</h3>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="control-label" for="status">
+                                <input type="checkbox" class="record-type-checkbox" checked="checked" name="status" id="status" value="1">
+                                <div class="alert alert-success"><strong>Active</strong></div>
+                                <div class="alert alert-warning"><strong>Closed</strong></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="title">Title</label>
+                        <div class="controls">
+                            <input type="text" name="title" id="title" class="input-block-level" value="">
+                        </div>
+                    </div>                    
+                    <div class="control-group">
+                        <label class="control-label" for="description">Description</label>
+                        <div class="controls">
+                            <textarea name="description" id="description" class="input-block-level" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="users">
+                            Users
+                            <button type="button" class="btn btn-mini btn-danger">Clear</button>
+                        </label>
+                        <div class="controls">
+                            <ul class="nav nav-pills tag-list" data-toggle="tagit" data-tagit-source="$users" data-tagit-placeholder="User" data-tagit-class="input-small">
+                                <li>Pablo</li>
+                            </ul>
+                            <script>
+                                var users = ['Pablo', 'Gina', 'Tomás'];
+                            </script>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+        </footer>
+
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/bootstrap.overrides.min.js"></script>
+        <script src="js/vendor/bootstrap.tagit.js"></script>
+        <script src="js/vendor/angular.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
