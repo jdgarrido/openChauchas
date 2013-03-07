@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="js/vendor/chosen/chosen.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -54,21 +55,16 @@
                             Users
                         </label>
                         <div class="controls">
-                            <label class="checkbox">
-                                <input type="checkbox" checked=true /> Pablo Astaburoaga
-                            </label>
-                            <label class="checkbox">
-                                <input type="checkbox" checked=true /> Juan Covarrubias-Errazuri
-                            </label>
-                            <label class="checkbox">
-                                <input type="checkbox" /> Diego Perez
-                            </label>
-                            <label class="checkbox">
-                                <input type="checkbox" /> Matthewwwww Woldsgifster
-                            </label>
-                            <label class="checkbox">
-                                <input type="checkbox" /> Alberto46
-                            </label>
+                            <select data-placeholder="Add user(s)" multiple name="users" class="chzn-select">
+                                <option></option>
+                                <option>Pablo Astaburoaga</option>
+                                <option>Juan Covarrubias-Errazuri</option>
+                                <option>Diego Perez</option>
+                                <option>Matthewwwww Wöldsgifster</option>
+                                <option>Alberto46</option>
+                            </select>
+
+                            
                         </div>
                     </div>
                     <div class="form-actions">
@@ -86,6 +82,7 @@
         <script src="js/vendor/bootstrap.overrides.min.js"></script>
         <script src="js/vendor/bootstrap.tagit.js"></script>
         <script src="js/vendor/angular.min.js"></script>
+        <script src="js/vendor/chosen/chosen.jquery.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
